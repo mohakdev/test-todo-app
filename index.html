@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Todo App</h1>
     <nav aria-label="Primary">
-      <ul>
+      <ul class="nav-list">
         <li><a href="#today">Today</a></li>
         <li><a href="#upcoming">Upcoming</a></li>
         <li><a href="#tips">Tips</a></li>
@@ -18,30 +19,30 @@
   </header>
 
   <main>
-    <section id="today">
+    <section id="today" class="panel">
       <h2>Today</h2>
 
-      <article>
+      <article class="task">
         <h3>Buy groceries</h3>
         <p>Milk, eggs, bread, and coffee.</p>
       </article>
 
-      <article>
+      <article class="task">
         <h3>Finish project report</h3>
         <p>Write the summary and send it for review.</p>
       </article>
     </section>
 
-    <section id="upcoming">
+    <section id="upcoming" class="panel">
       <h2>Upcoming</h2>
 
-      <article>
+      <article class="task">
         <h3>Book dentist appointment</h3>
         <p>Call the clinic before Friday.</p>
       </article>
     </section>
 
-    <aside id="tips">
+    <aside id="tips" class="panel">
       <h2>Tips</h2>
       <p>Break large tasks into smaller ones so they are easier to start.</p>
     </aside>
